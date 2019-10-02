@@ -101,28 +101,38 @@ td,
 th {
     border: 1px solid rgb(190, 190, 190);
     padding: 10px;
+    padding: 1em;
 }
+
 
 td {
     text-align: center;
+    padding: 1em;
 }
 
 tr:nth-child(even) {
+    padding: 10px 50px 20px;
     background-color: #eee;
+    padding: 1em;
 }
 
 th[scope="col"] {
+    padding: 10px 50px 20px;
     background-color: #696969;
     color: #fff;
+    
 }
 
 th[scope="row"] {
+    padding: 10px 50px 20px;
     background-color: #d7d9f2;
+    
 }
 
 th[scope="winnaar"] {
+   padding: 10px 50px 20px;
     background-color: #48FF00 ;
-
+   
 }
 
 caption {
